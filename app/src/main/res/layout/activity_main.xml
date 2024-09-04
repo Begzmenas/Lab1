@@ -7,6 +7,16 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <Button
+        android:id="@+id/btnChangeColor"
+        android:layout_width="100dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="64dp"
+        android:text="ChangeColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MainTextView" />
+
     <TextView
         android:id="@+id/MainTextView"
         android:layout_width="wrap_content"
@@ -21,8 +31,9 @@
         android:id="@+id/btnChangeText"
         android:layout_width="100dp"
         android:layout_height="53dp"
-        android:text="Button"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="40dp"
+        android:text="ChangeText"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/MainTextView" />
 
