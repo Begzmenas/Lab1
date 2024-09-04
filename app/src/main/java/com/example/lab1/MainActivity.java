@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         // Set an OnClickListener on the Button
         ChangeTxtBtn.setOnClickListener(v -> {
             // Change the text of the TextView when the button is clicked
-            MainText.setText("Pakeistas tekstas");
+            MainText.setText("Tekstas Pakeistas");
         });
     }
 }
